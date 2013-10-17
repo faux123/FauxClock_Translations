@@ -6,28 +6,28 @@
 
     <!-- acquire root -->
     <string name="acquire_root_loading">Prüfe Superuser und Busybox Zustand</string>
-    <string name="acquire_root_acquired">su Rechte genehmigt</string>
-    <string name="acquire_root_denied">su Rechte verweigert</string>
-    <string name="acquire_root_busybox_not_installed">busybox nicht installiert or funktioniert nicht</string>
-    <string name="acquire_root_bosybox_check_passed">busybox Prüfunf bestanden</string>
-    <string name="acquire_root_setting_permissions">setze Zugriffsrechte zum Kernel</string>
-    <string name="acquire_root_no_shell_service">Kein laufender shell Dienst, Dienst wird gestartet</string>
+    <string name="acquire_root_acquired">su-Rechte genehmigt</string>
+    <string name="acquire_root_denied">su-Rechte verweigert</string>
+    <string name="acquire_root_busybox_not_installed">Busybox nicht installiert oder funktioniert nicht</string>
+    <string name="acquire_root_bosybox_check_passed">Busybox Überprüfungen bestanden</string>
+    <string name="acquire_root_setting_permissions">setze Kernelrechte</string>
+    <string name="acquire_root_no_shell_service">Kein laufender shell-Dienst, Dienst wird gestartet</string>
     
     <!-- lvl messages -->
     <string name="lvl_checking_license">Prüfe Google Lizenz</string>
-    <string name="lvl_check_app_error">Lizenz Prüfungsfehler :</string>
-    <string name="lvl_check_invalid">Lizenz nicht erhalten !\nBitte prüfen Sie ob WiFi und/oder\nMobile Daten eingeschaltet sind\nund versuchen Sie es erneut !</string>
+    <string name="lvl_check_app_error">Lizenz Prüffehler :</string>
+    <string name="lvl_check_invalid">Lizenz nicht erhalten !\nBitte prüfen Sie ob WLAN und/oder\nMobile Daten eingeschaltet sind\nund versuchen Sie es erneut !</string>
     
     <!-- unsupported kernel -->
-    <string name="unsupported_kernel_paragraph">Dieser kernel ist nicht supported :(</string>
+    <string name="unsupported_kernel_paragraph">Dieser Kernel wird nicht unterstützt :(</string>
 
     <!-- Fragments -->
-    <string name="fragment_not_supported">Nicht Supported !</string>
-    <string name="fragment_cpu_name">CPU Clock / Hotplug</string>
-    <string name="fragment_cpu_detail">CPU Clock und Hotplug Tweaks</string>
-    <string name="fragment_cpu_hint">Linux CPU Frequenz Einstellung</string>
-    <string name="fragment_voltage_name">Spannungseinstellung</string>
-    <string name="fragment_voltage_detail">CPU Spannungseinstellung</string>
+    <string name="fragment_not_supported">Nicht unterstützt !</string>
+    <string name="fragment_cpu_name">CPU Takt / Hotplug</string>
+    <string name="fragment_cpu_detail">CPU Takt und Hotplug Tweaks</string>
+    <string name="fragment_cpu_hint">Linux CPU Takteinstellung</string>
+    <string name="fragment_voltage_name">Spannungsjustierung</string>
+    <string name="fragment_voltage_detail">CPU Spannungsjustierung</string>
     <string name="fragment_voltage_hint">under volt FAQ faux123</string>
     <string name="fragment_governor_name">CPU Governor</string>
     <string name="fragment_governor_detail">Governor Tweaks</string>
@@ -35,12 +35,12 @@
     <string name="fragment_socpower_name">CPU Idle / Statistik</string>
     <string name="fragment_socpower_detail">CPU Idle und Statistiken</string>
     <string name="fragment_socpower_hint">arm cpu idle power gating</string>
-    <string name="fragment_thermal_name">Thermal Steuerung</string>
-    <string name="fragment_thermal_detail">Thermal Steuerung und Statistiken</string>
+    <string name="fragment_thermal_name">Thermal-Steuerung</string>
+    <string name="fragment_thermal_detail">Thermal-Steuerung und Statistiken</string>
     <string name="fragment_thermal_hint">Thermal Throttling intellithermal</string>
     <string name="fragment_gpu_name">GPU Manager</string>
-    <string name="fragment_gpu_detail">GPU Clock / Governor Tweaks</string>
-    <string name="fragment_gpu_hint">Arm GPU Frequenz Einstellung</string>
+    <string name="fragment_gpu_detail">GPU Takt / Governor Tweaks</string>
+    <string name="fragment_gpu_hint">Arm GPU Takteinstellung</string>
     <string name="fragment_iosched_name">I/O Scheduler</string>
     <string name="fragment_iosched_detail">I/O Scheduler Tweaks</string>
     <string name="fragment_iosched_hint">Linux I/O Scheduler</string>
@@ -62,7 +62,7 @@
     <string name="fragment_download_name">Kernel Download</string>
     <string name="fragment_download_detail">Kernel Download</string>
     <string name="fragment_download_hint">faux123 Kernel Download</string>
-    <string name="fragment_info_name">Device Infos</string>
+    <string name="fragment_info_name">Gerätinfos</string>
     <string name="fragment_info_detail">Telefon / Tablet Infos</string>
     <string name="fragment_info_hint">Android Version</string>
     <string name="fragment_theme_name">FauxClock Einstellungen</string>
@@ -75,11 +75,11 @@
     <!-- UI drawer -->
     <string name="drawer_open">Navigationsordner öffnen</string>
     <string name="drawer_close">Navigationsordner schließen</string>
-    <string name="action_websearch">Web Suche</string>
+    <string name="action_websearch">Websuche</string>
     <string name="app_not_available">Sorry, kein Webbrowser verfügbar</string>
 
     <!-- common -->
-    <string name="common_set_on_boot">Bei Systemstart setzen</string>
+    <string name="common_set_on_boot">Bei Systemstart anwenden</string>
     <string name="common_apply">Anwenden</string>
     <string name="common_dialog_set">Anwenden</string>
     <string name="common_dialog_cancel">Abbrechen</string>
@@ -91,14 +91,14 @@
     <string name="cpu_control_min_clock">Min Frequenz</string>
     <string name="cpu_control_cpu_governor">CPU Governor :</string>
     <string name="cpu_control_mpdecision_switch">mpdecision</string>
-    <string name="cpu_control_mpdecision_paragraph">Stock Qualcomm hotplug Treiber. (Empfohlen Off)</string>
+    <string name="cpu_control_mpdecision_paragraph">Stock Qualcomm hotplug Treiber. (Empfohlen Aus)</string>
     <string name="cpu_control_eco_mode_switch">Eco Modus</string>
-    <string name="cpu_control_eco_mode_paragraph">Spezieller Stromspar Modue optimiert für 2 Core Betrieb</string>
+    <string name="cpu_control_eco_mode_paragraph">Spezieller Stromsparmodus optimiert für 2 Kerne</string>
     <string name="cpu_control_snake_charmer_switch">Snake Charmer</string>
-    <string name="cpu_control_snake_charmer_paragraph">CPU Höchstfrequenzbegrenzung für alle Cores</string>
+    <string name="cpu_control_snake_charmer_paragraph">CPU Frequenzschranke für alle Kerne</string>
     <string name="cpu_control_tegra3_cpu_quiet_governor">Tegra3 CPU Quiet Governor :</string>
-    <string name="cpu_control_tegra3_user_cap_switch">Tegra3 Höchstfrequenzbegrenzung</string>
-    <string name="cpu_control_tegra3_user_cap_paragraph">Einschalten zur CPU Höchstfrequenzbegrenzung auf Tegra3 Platformen</string>
+    <string name="cpu_control_tegra3_user_cap_switch">Tegra3 Frequenzschranke</string>
+    <string name="cpu_control_tegra3_user_cap_paragraph">Einschalten um Frequenzmaximum auf Tegra3 Plattformen zu begrenzen</string>
     <string name="cpu_control_intelliplug_status">Intelliplug Hotplug Treiber</string>
     <string name="cpu_control_intelliplug_text">Einschalten wenn stock Hotplug Treiber abgeschaltet ist.</string>
 
@@ -109,16 +109,16 @@
     <string name="voltage_control_core_sr_label">Core SR Schatler</string>
     <string name="voltage_control_mpu_sr_label">MPU SR Schatler</string>
     <string name="voltage_control_global_apply_button">Global anwenden</string>
-    <string name="voltage_control_refresh_table_button">Tabelle auffrischen</string>
+    <string name="voltage_control_refresh_table_button">Tabelle aktualisieren</string>
     <string name="voltage_control_clear_all_button">Boot Einstellungen löschen</string>
 
     <!-- governor control -->
-    <string name="governor_control_unsupported_paragraph">Dieser Governor ist aktuell nicht supported !</string>
+    <string name="governor_control_unsupported_paragraph">Dieser Governor ist aktuell nicht unterstützt !</string>
     <string name="governor_control_intellidemand_eco_mode_switch">Intellidemand Eco Modus</string>
     <string name="governor_control_sampling_rate_note">Seit Android 4.0.3+ wird die Sampling Rate manchmal vom Kernel und/oder von der PowerHAL(ROM) gesteuert und ist ggf. nicht vum Benutzer einstellbar !</string>
     <string name="n_governor_control_show_button">Zeigen/Updaten</string>
     <string name="n_governor_control_save_button">Speichern</string>
-    <string name="n_governor_control_warning_text">Achtung : Nicht alle Tunables können vom Benutzer eingestellt werden (z.B. sampling_rate). Viele Tunables sind seit Android 4.0.3+ von der ROM (PowerHAL) und/oder vom Kernel selbst gesteuert.</string>
+    <string name="n_governor_control_warning_text">Achtung : Nicht alle Tuneables können vom Benutzer eingestellt werden (z.B. sampling_rate). Viele Tuneables sind seit Android 4.0.3+ von der ROM (PowerHAL) und/oder vom Kernel selbst gesteuert.</string>
 
     <!-- gpu control -->
     <string name="gpu_control_governor_label">GPU Governor :</string>
@@ -126,8 +126,8 @@
     <string name="gpu_control_vsync_toggle_label">V-Sync Schalter</string>
     <string name="gpu_control_msm_simple_laziness_label">Simple Governor : [Laziness]</string>
     <string name="gpu_control_msm_simple_threshold_label">Simple Governor : [Ramp Threshold]</string>
-    <string name="gpu_control_msm_simple_laziness_description">Dies legt fest wie oft der Gorvernor Leistungsminderungsvorgänge überspringt. Höher == bessere Performance (mehr Akku Verlust)</string>
-    <string name="gpu_control_msm_simple_threshold_description">Dies legt die Schwelle fest ab welcher die GPU Frequenz erhöht oder gemindert wird. Niedriger == bessere Performance (mehr Akku Verlust)</string>
+    <string name="gpu_control_msm_simple_laziness_description">Dies legt fest wie oft der Gorvernor Leistungsminderungsvorgänge überspringt. Höher == bessere Performance (höherer Akkuverbrauch)</string>
+    <string name="gpu_control_msm_simple_threshold_description">Dies legt die Schwelle fest ab welcher die GPU Frequenz erhöht oder gemindert wird. Niedriger == bessere Performance (höherer Akkuverbrauch)</string>
 
     <!-- io scheduler control -->
     <string name="io_sched_emmc_label">I/O Scheduler (eMMC) :</string>
@@ -139,7 +139,7 @@
     <string name="io_sched_sdcard_entropy">SD Karte Entropiebeitrag :</string>
 
     <!-- misc control -->
-    <string name="misc_control_temp_warning_text">Alle Einstellungen hier sind temporär. Diese springen zurück auf die Kernel Defaultwerte nach einem Reboot !</string>
+    <string name="misc_control_temp_warning_text">Alle Einstellungen hier sind temporär. Diese springen nach einem Neustart auf die Kernel voreingestellten Werte zurück !</string>
     <string name="misc_control_dynamic_fsync_label">Dynamic File Sync</string>
     <string name="misc_control_dynamic_fsync_paragraph">Default (Ein). Bei eingeschaltetem Bildschirm ist file sync temporär hinausgeschoben, bei abgeschaltetem Bildschirm wird Flush aufgerufen um alle ausstehende Schreibvorgänge zu synchronisieren.</string>
     <string name="misc_control_usb_fastcharge_label">USB Fast Charge</string>
