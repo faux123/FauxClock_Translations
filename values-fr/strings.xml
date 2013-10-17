@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Faux123 Kernel Enhancement Project</string>
+    <string name="app_drawer_name">FauxClock</string>
+
+    <!-- acquire root -->
+    <string name="acquire_root_loading">Vérification de l\'état de superuser et busybox</string>
+    <string name="acquire_root_acquired">accès su accordé</string>
+    <string name="acquire_root_denied">accps su refusé</string>
+    <string name="acquire_root_busybox_not_installed">busybox manque ou ne fonctionne pas</string>
+    <string name="acquire_root_bosybox_check_passed">busybox validé</string>
+    <string name="acquire_root_setting_permissions">application des droits d\'accès au kernel </string>
+    <string name="acquire_root_no_shell_service">Service shell n\'est pas actif, démarrage du service</string>
+    
+    <!-- lvl messages -->
+    <string name="lvl_checking_license">Vérification licence Google</string>
+    <string name="lvl_check_app_error">Erreur fatale du contrôle de licence :</string>
+    <string name="lvl_check_invalid">Licence non reçue !\nMerci de bien vérifier \nvotre WiFi et/ou data mobile\net de réessayer !</string>
+    
+    <!-- unsupported kernel -->
+    <string name="unsupported_kernel_paragraph">Ce kernel n\'est pas supporté :(</string>
+
+    <!-- Fragments -->
+    <string name="fragment_not_supported">Non supporté !</string>
+    <string name="fragment_cpu_name">CPU Clock / Hotplugging</string>
+    <string name="fragment_cpu_detail">CPU Clock et Tweaks Hotplugging</string>
+    <string name="fragment_cpu_hint">Contrôle de fréquence CPU Linux</string>
+    <string name="fragment_voltage_name">Réglage du voltage</string>
+    <string name="fragment_voltage_detail">Réglages du voltage CPU</string>
+    <string name="fragment_voltage_hint">FAQ under volt de faux123</string>
+    <string name="fragment_governor_name">Gouverneur CPU</string>
+    <string name="fragment_governor_detail">Tweaks gouverneur</string>
+    <string name="fragment_governor_hint">Tweaks gouverneur Linux</string>
+    <string name="fragment_socpower_name">CPU idle / Statistiques</string>
+    <string name="fragment_socpower_detail">CPU idle et statistiques</string>
+    <string name="fragment_socpower_hint">arm cpu idle power gating</string>
+    <string name="fragment_thermal_name">Gestionnaire thermique</string>
+    <string name="fragment_thermal_detail">Gestion thermique et statistiques</string>
+    <string name="fragment_thermal_hint">Contrôle thermique intellithermal</string>
+    <string name="fragment_gpu_name">Gestionnaire GPU</string>
+    <string name="fragment_gpu_detail">Frléquence GPU / Tweak gouverneur</string>
+    <string name="fragment_gpu_hint">contrôle de fréquence gpu arm</string>
+    <string name="fragment_iosched_name">Scheduler I/O</string>
+    <string name="fragment_iosched_detail">Tweaks de scheduler I/O</string>
+    <string name="fragment_iosched_hint">I/O scheduler Linux</string>
+    <string name="fragment_sweep2wake_name">Sweep2Wake</string>
+    <string name="fragment_sweep2wake_detail">Tweaks Sweep2wake</string>
+    <string name="fragment_sweep2wake_hint">sweep2wake home2wake doubletap2wake</string>
+    <string name="fragment_vibration_name">Réglage vibreur</string>
+    <string name="fragment_vibration_detail">Tweaks vibreur</string>
+    <string name="fragment_vibration_hint">contrôle vibreur android</string>
+    <string name="fragment_color_name">Couleur / Gamma</string>
+    <string name="fragment_color_detail">Tweaks Couleur / Gamma</string>
+    <string name="fragment_color_hint">wiki gamma couleur</string>
+    <string name="fragment_zcontrol_name">Gestionnaire mémoire</string>
+    <string name="fragment_zcontrol_detail">Tweaks mémoire/cache et statistiques</string>
+    <string name="fragment_zcontrol_hint">wiki ZRAM zcache</string>
+    <string name="fragment_misc_name">Divers</string>
+    <string name="fragment_misc_detail">Tweaks divers</string>
+    <string name="fragment_misc_hint">Charge rapide USB, fsync dynamique</string>
+    <string name="fragment_download_name">Téléchargement Kernel</string>
+    <string name="fragment_download_detail">Téléchargement Kernel</string>
+    <string name="fragment_download_hint">téléchargement kernel faux123</string>
+    <string name="fragment_info_name">Informations sur l\'appareil</string>
+    <string name="fragment_info_detail">Information téléphone / tablette</string>
+    <string name="fragment_info_hint">Version Android</string>
+    <string name="fragment_theme_name">Réglages FauxClock</string>
+    <string name="fragment_theme_detail">Réglages de l\'app FauxClock</string>
+    <string name="fragment_theme_hint">Thèmes Holo Android</string>
+    <string name="fragment_appcontrol_name">Réglage par app</string>
+    <string name="fragment_appcontrol_detail">Réglage de performances par app</string>
+    <string name="fragment_appcontrol_hint">Réglages de performances par app</string>
+    
+    <!-- UI drawer -->
+    <string name="drawer_open">Ouvrir le dossier de navigation</string>
+    <string name="drawer_close">Fermer Close le dossier de navigation</string>
+    <string name="action_websearch">Recherche Web</string>
+    <string name="app_not_available">Désolé. aucun browser web disponible</string>
+
+    <!-- common -->
+    <string name="common_set_on_boot">Appliquer au démarrage</string>
+    <string name="common_apply">Appliquer</string>
+    <string name="common_dialog_set">Appliquer</string>
+    <string name="common_dialog_cancel">Annuler</string>
+    <string name="common_change_log">Journal des changements</string>
+    <string name="common_disabled">Désactivé</string>
+
+    <!-- cpu control -->
+    <string name="cpu_control_max_clock">Fréquence Max</string>
+    <string name="cpu_control_min_clock">Fréquence Min</string>
+    <string name="cpu_control_cpu_governor">Gouverneur CPU :</string>
+    <string name="cpu_control_mpdecision_switch">mpdecision</string>
+    <string name="cpu_control_mpdecision_paragraph">Pilot hotplug Qualcomm d\'origine. (Recommandé inactif)</string>
+    <string name="cpu_control_eco_mode_switch">Mode Eco</string>
+    <string name="cpu_control_eco_mode_paragraph">Mode économie d\'énergie optimisé pour 2 cores</string>
+    <string name="cpu_control_snake_charmer_switch">Snake Charmer</string>
+    <string name="cpu_control_snake_charmer_paragraph">Activer la limitation de la fréquence maximum du CPU pour tous les cores</string>
+    <string name="cpu_control_tegra3_cpu_quiet_governor">Gouverneur CPU Quiet Tegra3 :</string>
+    <string name="cpu_control_tegra3_user_cap_switch">Limite de fréquence Tegra3</string>
+    <string name="cpu_control_tegra3_user_cap_paragraph">Activer la limitation de la fréquence maximum du CPU sur platformes Tegra3</string>
+    <string name="cpu_control_intelliplug_status">Pilote Hotplug Intelliplug</string>
+    <string name="cpu_control_intelliplug_text">Activé lorsque le pilote d\'origine est désactivé.</string>
+
+    <!-- voltage control -->
+    <string name="voltage_control_global_cpu_voltage_label">Voltage global du CPU :</string>
+    <string name="voltage_control_smart_reflex_label">Réglages Smart Reflex :</string>
+    <string name="voltage_control_iva_sr_label">IVA SR Toggle</string>
+    <string name="voltage_control_core_sr_label">Core SR Toggle</string>
+    <string name="voltage_control_mpu_sr_label">MPU SR Toggle</string>
+    <string name="voltage_control_global_apply_button">Appliquer globalement</string>
+    <string name="voltage_control_refresh_table_button">Rafraîchir table</string>
+    <string name="voltage_control_clear_all_button">Effacer réglages de démarrage</string>
+
+    <!-- governor control -->
+    <string name="governor_control_unsupported_paragraph">Ce gouverneur n\'est pas supporté pour le moment !</string>
+    <string name="governor_control_intellidemand_eco_mode_switch">Mode eco Intellidemand</string>
+    <string name="governor_control_sampling_rate_note">Depuis Android 4.0.3+, Sampling Rate est parfois contrôlé par le kernel et/ou le PowerHAL(ROM). Il n\'est éventuellement pas réglable par l\'utilisateur !</string>
+    <string name="n_governor_control_show_button">Afficher/Actualiser</string>
+    <string name="n_governor_control_save_button">Enregistrer</string>
+    <string name="n_governor_control_warning_text">Avertissement : Tous les tunables ne sont pas réglable par l\'utilisateur (p.ex. la sampling_rate). Depuis Android 4.0.3+ beaucoups de tunables sont gérés par la ROM (PowerHAL) et/ou le kernel lui-même.</string>
+
+    <!-- gpu control -->
+    <string name="gpu_control_governor_label">Gouverneur GPU :</string>
+    <string name="gpu_control_clock_control_label">Gestion fréquence GPU :</string>
+    <string name="gpu_control_vsync_toggle_label">Interrupter V-Sync</string>
+    <string name="gpu_control_msm_simple_laziness_label">Gouverneur simple : [Laziness]</string>
+    <string name="gpu_control_msm_simple_threshold_label">Gouverneur simple : [Ramp Threshold]</string>
+    <string name="gpu_control_msm_simple_laziness_description">Ceci paramètre le nombre de fois que le gouverneur ignore les requête de diminution. Plus == meilleures performances (consomme plus de batterie)</string>
+    <string name="gpu_control_msm_simple_threshold_description">Ceci paramètre le seuil pour monter ou descendre les fréquences GPU. Moins == meilleures performances (consomme plus de batterie)</string>
+
+    <!-- io scheduler control -->
+    <string name="io_sched_emmc_label">Scheduler I/O (eMMC) :</string>
+    <string name="io_sched_emmc_readahead">Taille readahead (eMMC) :</string>
+    <string name="io_sched_emmc_entropy">Contribution d\'entropie eMMC :</string>
+    <string name="io_sched_entropy_paragraph">Desactiver pour de meilleures performances. (Les périphériques Flash sont peu aléatoires et sont une mauvaise source de contribution d\'entropie)</string>
+    <string name="io_sched_sdcard_label">Scheduler I/O (SDCard) :</string>
+    <string name="io_sched_sdcard_readahead">Taille readahead (carte SD) :</string>
+    <string name="io_sched_sdcard_entropy">Contribution d\'entropie carte SD :</string>
+
+    <!-- misc control -->
+    <string name="misc_control_temp_warning_text">Tous ces réglages ne sont que temporaires. Ils seront remise aux valeures pas défaut du kernel au redémarrage !</string>
+    <string name="misc_control_dynamic_fsync_label">Dynamic File Sync</string>
+    <string name="misc_control_dynamic_fsync_paragraph">Défaut (Actif).  Lorsque l\'écran est allumé, file sync est provisoirement différée, lorsque l\'écran est éteint, une synchronisation des écritures en attente est forcée.</string>
+    <string name="misc_control_usb_fastcharge_label">Charge rapide USB</string>
+    <string name="misc_control_usb_fastcharge_paragraph">Défaut (Inactif). Cette option permet dr forcer la reconnaissance de certains chargeurs USB bons marchés donnant > 500mA/h en chargeurs secteur de manière à charger la batterie plus rapidement.</string>
+    <string name="misc_control_wifi_pm_fast_label">WiFi PM Fast</string>
+    <string name="misc_control_wifi_pm_fast_paragraph">[Uniquement WiFi Braodcom] Défaut (Inactif). Cette option permet des vitesses de transfert WiFi plus élevées lorsque l\'écran est éteint (peut consommer plus de batterie en standby)</string>
+    <string name="misc_control_otg_charging_label">Forcer la charge OTG</string>
+    <string name="misc_control_otg_charging_paragraph">Défaut (Inactif). Cette option active la charge en mode OTG (nécessite un câble OTG en Y spécial)</string>
+    <string name="misc_control_tcp_congestion_label">Contrôle de congestion TCP :</string>
+    <string name="misc_control_led_timer_label">Durée LED :</string>
+    <string name="misc_control_backup_button">Sauvegarder les réglages de l\'application</string>
+    <string name="misc_control_restore_button">Restaurer les réglages de l\'application</string>
+    <string name="misc_control_blink_led_button">Clingottement des LED des boutons</string>
+    <string name="misc_control_blink_led_text">Défaut (Inactif) Cette option permet de faire clignoter les LED des boutons en cas de notifications</string>
+    <string name="misc_control_otg_hack_n4_label">Hack OTG Nexus 4</string>
+    <string name="misc_control_ogt_hack_n4_text">Défaut (Inactif). Activer ceci pour permettre l\'utilisation OTG. Nécessite un câble OTG en Y spécial ainsi qu\'un chargeur !</string>
+
+    <!-- sweep2wake control -->
+    <string name="misc_control_sweep2wake_label">Fonction Sweep2Wake :</string>
+    <string name="misc_control_sweep2wake_paragraph">Défaut (Inactif). Cette option active la fonctionnalité sweep2wake (peut consommer plus de batterie lorsque l\'appareil est en poche)</string>
+    <string name="misc_control_sweep2wake_style">Style Sweep2Wake :</string>
+    <string name="misc_control_sweep2wake_led_checkbox">Désactiver l\'éclairage des bountons pour Sweep2Wake</string>
+    <string name="home2wake_control_warning_text">Avertissement : Le pilote Home2wake est ancien. Passer à une version plus récente du kernel pour utiliser Home2wake !</string>
+    <string name="home2wake_h2w_label">Options home2wake :</string>
+    <string name="home2wake_h2w_0_radio">désactiver home2wake</string>
+    <string name="home2wake_h2w_1_radio">home2wake</string>
+    <string name="home2wake_h2w_2_radio">home2wake + logo2sleep</string>
+    <string name="home2wake_h2w_3_radio">logo2wake + logo2sleep</string>
+    <string name="home2wake_l2m_label">logo2menu</string>
+    <string name="home2wake_l2m_active">actif</string>
+    <string name="home2wake_l2m_inactive">inactif</string>
+    <string name="home2wake_l2s_label">délai long logo2sleep</string>
+    <string name="home2wake_l2s_active">actif</string>
+    <string name="home2wake_l2s_inactive">inactif</string>
+    <string name="home2wake_s2w_label">sweep2wake</string>
+    <string name="home2wake_dt2w_label">doubletap2wake</string>
+    <string name="home2wake_pocket_detection_switch">pocket detection</string>
+    <string name="home2wake_l2m_2_phase_switch">logo2menu 2 phase</string>
+    <string name="home2wake_sleep_wake_vib_timer_label">Puissance de vibration de Sleep Wake :</string>
+    <string name="home2wake_s2w_active">actif</string>
+    <string name="home2wake_s2w_inactive">inactif</string>
+    <string name="home2wake_s2w_shortsweep">sweepwake court</string>
+    <string name="s2w_parameters_label">Paramètres Sweep2Wake :</string>
+    <string name="s2w_start_position_label">Position de départ : </string>
+    <string name="s2w_mid_position_label">Position centrale : </string>
+    <string name="s2w_end_position_label">Position de fin : </string>
+    <string name="s2w_thresholds_label">Seuil : </string>
+    <string name="s2w_orientations_label">Orientation: </string>
+    <string name="s2w_parameters_apply_button">Appliques les paramètres</string>
+
+    <!-- vibration control -->
+    <string name="vibration_control_label">Gestion de la vibration :</string>
+    <string name="vibration_control_button">Tester la vibration</string>
+
+    <!-- color control -->
+    <string name="color_control_common_red_label">Rouge:</string>
+    <string name="color_control_common_green_label">Vert:</string>
+    <string name="color_control_common_blue_label">Bleu:</string>
+    <string name="color_control_no_support_paragraph">Ce kernel n\'a pas de support Gamma. Téléchargez mon kernel d\'origine amélioré pour le support Gamma ci-dessous !</string>
+    <string name="color_control_enhanced_kernel_button">Kernel d\'origine amélioré</string>
+    <string name="color_control_custom_profiles">Profiles personnalisés:</string>
+    <string name="color_control_pop_preset">Réglage Couleur Pop</string>
+    <string name="color_control_accurate_preset">Réglage Couleur Accurate</string>
+    <string name="color_control_lg_factory_preset">Réglage d\'origine LG</string>
+    <string name="color_control_google_stock_preset">Réglage Couleur Google</string>
+    <string name="color_control_color_temperature_label">Température de couleur :</string>
+    <string name="color_control_contrast_label">Réglages de contraste :</string>
+    <string name="color_control_omap4_gamma_preset">Réglages Gamma OMAP4 :</string>
+    <string name="color_control_amp0_label">Amplitude [0]: (Effects larges: Augmenter la saturation des couleurs)</string>
+    <string name="color_control_amp1_label">Amplitude [1]: (Effects larges: Dimminuer la saturation des couleurs)</string>
+    <string name="color_control_apply_color_button">Appliquer les couleurs</string>
+    <string name="color_control_reset_gamma_button">Réinitialiser Gamma</string>
+    <string name="color_control_sgs_cold">Froid</string>
+    <string name="color_control_sgs_cool">Frais</string>
+    <string name="color_control_sgs_normal">Normal</string>
+    <string name="color_control_sgs_warm">Chaud</string>
+    <string name="color_control_sgs_hot">Très chaud</string>
+
+    <!-- download control -->
+    <string name="download_control_stable_label">Versions stables :</string>
+    <string name="download_control_no_data_paragraph">Il n\'y a pas de connection de données ou il n\'y a pas de kernel officiel supporté pour cet appareil !</string>
+    <string name="download_control_franco_warning">AVERTISSEMENT: Kernel Franco detecté. Vous devez flasher la mise-à-blanc du kernel correspondant disponible dans mes threads de support dans l\'onglet &quot;INFO&quot; ou flasher un kernel d\'origine avant de flasher mon kernel. Si vous ne le faites pas, le téléphone ne démarrera pas à cause de l\'image de kernel non standard de Franco !!!</string>
+    <string name="download_control_beta_label">Version Beta :</string>
+    <string name="donwload_control_changelog_button">Journal des\nchangements</string>
+    <string name="download_control_view_folder_button">Afficher le dossier complèt</string>
+    <string name="download_reboot_cmds_label">Instructions de redémarrage :</string>
+    <string name="download_reboot_to_recovery_button">Redémarrage en Recovery</string>
+    <string name="download_quick_reboot">Redémarrage rapide</string>
+
+    <!-- info -->
+    <string name="info_follow_me_on_twitter">Suivez-moi sur Twitter</string>
+    <string name="info_like_this_app_on_facebook">Aimez cette app sur Facebook</string>
+    <string name="info_plus_one_google_plus">+1 sur Google Plus</string>
+    <string name="info_kernel_version">Version du kernel :</string>
+    <string name="info_rom_version">Versin de la ROM :</string>
+    <string name="info_bootloader_version">Version du bootloader :</string>
+    <string name="info_radio_version">Version de la radio :</string>
+    <string name="info_serial_number">Numéro de série :</string>
+    <string name="info_xda_kernel_support">Forum principal de support du kernel</string>
+    <string name="info_rootz_kernel_support">Forum secondaire de support du kernel</string>
+    <string name="info_donation_link">Dons pour le kernel</string>
+    <string name="info_app_version">Version de l\'app :</string>
+
+    <!-- soc power control -->
+    <string name="soc_usage_label">Utilisation :</string>
+    <string name="soc_enable_switch_label">Actif</string>
+    <string name="soc_cpu_temp_label">Température CPU (&#176;C):</string>
+    <string name="soc_bat_temp_label">Température batterie (&#176;C):</string>
+    <string name="soc_cpu_stats_label">Statistiques de fréquences des cores :</string>
+    <string name="soc_total_time_stats_label">Temps total d\'état :</string>
+    <string name="soc_time_in_states_label">Temps par état :</string>
+    <string name="soc_total_time_value">Cliquez sur "Mettre à jour les stats" pour voir les statistiques !</string>
+    <string name="soc_stats_refresh_button">Mettre à jour les stats</string>
+
+    <!-- z control -->
+    <string name="zcon_zram_disksize_label">Taille ZRAM (mégaoctets) :</string>
+    <string name="zcon_zram_swap_on_radio">ZRAM Swap actif</string>
+    <string name="zcon_zram_swap_off_radio">ZRAM Swap inactif</string>
+    <string name="zcon_zram_disksize_apply_button">Appliquer taille</string>
+    <string name="zcon_vfs_drop_caches_switch">Effacer le cache VFS après le redémarrage</string>
+    <string name="zcon_vfs_drop_caches_description">Cette option forcera la reconstruction du cache du système de fichiers basé sur l\'utilisation réelle des apps plutôt que les processus de boot/démarrage. Activer pour de meilleures performances des opération de lecture/écriture du système de fichiers !</string>
+    <string name="zcon_laptop_mode_switch">Mode automatique de délai de writeback du système de fichiers</string>
+    <string name="zcon_laptop_mode_description">Cette option retardera le writeback des bits de système de fichiers en tampon dans la mémoire lorsque l\'écran est allumé. Activer pour de meilleures performances au risque potentiel de perte de données en cas de crash ou perte de courant subite.</string>
+    <string name="zcon_swappiness_label">Swappiness: (défaut 60%)</string>
+    <string name="zcon_vfs_cache_pressure_label">Pression cache VFS : (défaut 100%)</string>
+    <string name="zcon_dirty_ratio_label">Ratio dirty : (défaut 20%)</string>
+    <string name="zcon_dirty_background_ratio_label">Ratio dirty en arrière plan : (défaut 5%)</string>
+
+    <!-- thermal control -->
+    <string name="thermcon_thermal_daemon_label">Gestion thermique :\n(Intellithermal recommandé)</string>
+    <string name="thermcon_intelli_thermal_radio">Intellithermal (Meilleur)</string>
+    <string name="thermcon_thermald_radio">Thermald (Origine)</string>
+    <string name="thermcon_pnpmgr_on_radio">PnPMgr actif</string>
+    <string name="thermcon_pnpmgr_off_radio">PnPMgr inactif</string>
+    <string name="thermcon_freq_throttling_temp_label">Seuil de température de diminution de fréquence :\n(origine 60°C, recommandé 70°C)</string>
+    <string name="thermcon_core_throttling_temp_label">Seuil de température core :\n(origine 80°C, recommandé 65°C)</string>
+    <string name="thermcon_freq_cores_label">Cores de diminution de fréquences :\n(original tous, recommandé tous)</string>
+    <string name="thermcon_core_offline_label">Core de diminution de cores:\n(origine tous, recommandés 2,3)</string>
+    <string name="thermcon_freq_core_0_checkbox">Core 0</string>
+    <string name="thermcon_freq_core_1_checkbox">Core 1</string>
+    <string name="thermcon_freq_core_2_checkbox">Core 2</string>
+    <string name="thermcon_freq_core_3_checkbox">Core 3</string>
+    <string name="thermcon_offline_core_1_checkbox">Core 1</string>
+    <string name="thermcon_offline_core_2_checkbox">Core 2</string>
+    <string name="thermcon_offline_core_3_checkbox">Core 3</string>
+
+    <!-- Settings control -->
+    <string name="settings_control_theme_name_label">Thème de l\'app :</string>
+    <string name="settings_control_theme_description">Sélectionnez le thème que vous préférez puis appuyez sur le bouton appliquer</string>
+    <string name="settings_control_theme_apply_button">Appliquer thème</string>
+    <string name="settings_control_copyright_label">Information de copyright :</string>
+    <string name="settings_control_open_source_label">Licences Open Source :</string>
+    <string name="settings_control_translation_label">Traductions :</string>
+    
+    <!-- Per App Controls -->
+    <string name="per_app_dialog_save">Enregistrer</string>
+    <string name="per_app_dialog_discard">Annuler</string>
+    <string name="per_app_control_enable_switch">Réglage par app</string>
+    <string name="per_app_control_allow_toast">Autoriser les notifications Toast</string>
+    <string name="per_app_control_show_system_apps">Afficher apps système</string>
+    <string name="per_app_control_show_apps_with_profile">Afficher apps système avec profile</string>
+    <string name="per_app_dialog_cpu_min_freq">Fréq. CPU Min (kHz) :</string>
+    <string name="per_app_dialog_cpu_max_freq">Fréq. CPU Max (kHz) :</string>
+    <string name="per_app_dialog_gpu_max_freq">Fréq. GPU Max (Hz) :</string>
+    <string name="per_app_dialog_gpu_governor">Gouverneur GPU :</string>
+    <string name="per_app_dialog_eco_mode_enable">Activer mode Eco</string>
+    
+    
+</resources>
