@@ -73,8 +73,8 @@
     <string name="fragment_appcontrol_hint">Per App Performance Einstellungen</string>
     
     <!-- UI drawer -->
-    <string name="drawer_open">Navigationsordner öffnen</string>
-    <string name="drawer_close">Navigationsordner schließen</string>
+    <string name="drawer_open">Navigation öffnen</string>
+    <string name="drawer_close">Navigation schließen</string>
     <string name="action_websearch">Websuche</string>
     <string name="app_not_available">Sorry, kein Webbrowser verfügbar</string>
 
@@ -225,9 +225,9 @@
     <string name="download_control_beta_label">Beta Version :</string>
     <string name="donwload_control_changelog_button">Change Log</string>
     <string name="download_control_view_folder_button">Gesammten Ordner sehen</string>
-    <string name="download_reboot_cmds_label">Reboot Befehle :</string>
+    <string name="download_reboot_cmds_label">Neustart Befehle :</string>
     <string name="download_reboot_to_recovery_button">Ins Recovery booten</string>
-    <string name="download_quick_reboot">Schnellreboot</string>
+    <string name="download_quick_reboot">Schnellstart</string>
 
     <!-- info -->
     <string name="info_follow_me_on_twitter">Folge mir auf Twitter</string>
@@ -245,14 +245,14 @@
 
     <!-- soc power control -->
     <string name="soc_usage_label">Verbrauch :</string>
-    <string name="soc_enable_switch_label">Activ</string>
+    <string name="soc_enable_switch_label">Aktiv</string>
     <string name="soc_cpu_temp_label">CPU Temperatur (&#176;C):</string>
     <string name="soc_bat_temp_label">Akku Temperatur (&#176;C):</string>
     <string name="soc_cpu_stats_label">Cores Frequency Statistiken :</string>
-    <string name="soc_total_time_stats_label">Gesammte State Zeit :</string>
-    <string name="soc_time_in_states_label">Zeit je State :</string>
-    <string name="soc_total_time_value">Klicken Sie auf Stats updaten um die Statistiken zu sehen !</string>
-    <string name="soc_stats_refresh_button">Stats updaten</string>
+    <string name="soc_total_time_stats_label">Gesammte Stadien Zeit :</string>
+    <string name="soc_time_in_states_label">Zeit je Stadium :</string>
+    <string name="soc_total_time_value">Klicken Sie auf Stats aktualisieren um die Statistiken zu sehen !</string>
+    <string name="soc_stats_refresh_button">Stats aktualisieren</string>
 
     <!-- z control -->
     <string name="zcon_zram_disksize_label">ZRAM Größe (Megabytes):</string>
@@ -275,20 +275,20 @@
     <string name="thermcon_pnpmgr_on_radio">PnPMgr Ein</string>
     <string name="thermcon_pnpmgr_off_radio">PnPMgr Aus</string>
     <string name="thermcon_freq_throttling_temp_label">Frequenzdrosseltemperatur :\n(stock 60°C, empfohlen 70°C)</string>
-    <string name="thermcon_core_throttling_temp_label">Core Drosseltemperatur :\n(stock 80°C, empfohlen 65°C)</string>
+    <string name="thermcon_core_throttling_temp_label">Kern Drosseltemperatur :\n(stock 80°C, empfohlen 65°C)</string>
     <string name="thermcon_freq_cores_label">Frequenzdrossel-Cores :\n(Stock alle, empfohlen alle)</string>
-    <string name="thermcon_core_offline_label">Core-Drossel-Cores:\n(Stock alle, empfohlen 2,3)</string>
-    <string name="thermcon_freq_core_0_checkbox">Core 0</string>
-    <string name="thermcon_freq_core_1_checkbox">Core 1</string>
-    <string name="thermcon_freq_core_2_checkbox">Core 2</string>
-    <string name="thermcon_freq_core_3_checkbox">Core 3</string>
-    <string name="thermcon_offline_core_1_checkbox">Core 1</string>
-    <string name="thermcon_offline_core_2_checkbox">Core 2</string>
-    <string name="thermcon_offline_core_3_checkbox">Core 3</string>
+    <string name="thermcon_core_offline_label">Kerne-Drossel-Cores:\n(Stock alle, empfohlen 2,3)</string>
+    <string name="thermcon_freq_core_0_checkbox">Kern 0</string>
+    <string name="thermcon_freq_core_1_checkbox">Kern 1</string>
+    <string name="thermcon_freq_core_2_checkbox">Kern 2</string>
+    <string name="thermcon_freq_core_3_checkbox">Kern 3</string>
+    <string name="thermcon_offline_core_1_checkbox">Kern 1</string>
+    <string name="thermcon_offline_core_2_checkbox">Kern 2</string>
+    <string name="thermcon_offline_core_3_checkbox">Kern 3</string>
 
     <!-- Settings control -->
     <string name="settings_control_theme_name_label">App Theme :</string>
-    <string name="settings_control_theme_description">Wählen Sie das gewünschte Theme aus, und drücken Sie anschliessend auf den Theme verwenden Button</string>
+    <string name="settings_control_theme_description">Wählen Sie das gewünschte Theme aus, und drücken Sie anschliessend auf den Theme verwenden Knopf</string>
     <string name="settings_control_theme_apply_button">Theme verwenden</string>
     <string name="settings_control_copyright_label">Copyright Hinweis :</string>
     <string name="settings_control_open_source_label">Open Source Lizenzen :</string>
@@ -298,7 +298,7 @@
     <string name="per_app_dialog_save">Speichern</string>
     <string name="per_app_dialog_discard">Verwerfen</string>
     <string name="per_app_control_enable_switch">Per App Einstellung</string>
-    <string name="per_app_control_allow_toast">Toast Notificationen erlauben</string>
+    <string name="per_app_control_allow_toast">Toast Benachrichtigung erlauben</string>
     <string name="per_app_control_show_system_apps">System Apps anzeigen</string>
     <string name="per_app_control_show_apps_with_profile">Apps mit Profilen anzeigen</string>
     <string name="per_app_dialog_cpu_min_freq">CPU Min Freq (kHz) :</string>
