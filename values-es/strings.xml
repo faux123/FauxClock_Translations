@@ -145,7 +145,7 @@
     <string name="misc_control_usb_fastcharge_label">Carga Rápida USB</string>
     <string name="misc_control_usb_fastcharge_paragraph">Por Defecto (Apagado). Esta opción permite que algunas cargadores baratos con más de 500ma sean reconocidos como cargadores AC para cargár de manera más rápida.</string>
     <string name="misc_control_wifi_pm_fast_label">Escritura rápida de WiFi</string>
-    <string name="misc_control_wifi_pm_fast_paragraph">[Solo WiFi's Broadcom] Por defecto (Apagado). Está opción permite una mayor velocidad de WiFi mientras la pantalla está apagada (puede causar mayor gasto de batería en modo reposo)</string>
+    <string name="misc_control_wifi_pm_fast_paragraph">[Solo WiFi\'s Broadcom] Por defecto (Apagado). Está opción permite una mayor velocidad de WiFi mientras la pantalla está apagada (puede causar mayor gasto de batería en modo reposo)</string>
     <string name="misc_control_otg_charging_label">Forzar carga por OTG</string>
     <string name="misc_control_otg_charging_paragraph">Por defecto (Apagado). Esta opción permite la carga por OTG (necesita un cable adaptador Y de OTG)</string>
     <string name="misc_control_tcp_congestion_label">TCP Congestión Control :</string>
@@ -221,7 +221,7 @@
     <!-- download control -->
     <string name="download_control_stable_label">Lanzamientos Estables:</string>
     <string name="download_control_no_data_paragraph">No hay conexión de datos o soporte oficial para el kernel en este dispositivo!</string>
-    <string name="download_control_franco_warning">PELIGRO: Detectado Franco kernel.  DEBES flashear el kernel reseator correspondiente desde mis post en &quot;INFO&quot; tab o KERNEL ORIGINAL antes de flashear mi kernel. Si no lo haces, tu teléfono no cargará debido a los kernel's de Franco!!!</string>
+    <string name="download_control_franco_warning">PELIGRO: Detectado Franco kernel.  DEBES flashear el kernel reseator correspondiente desde mis post en &quot;INFO&quot; tab o KERNEL ORIGINAL antes de flashear mi kernel. Si no lo haces, tu teléfono no cargará debido a los kernel\'s de Franco!!!</string>
     <string name="download_control_beta_label">Lanzamientos Beta:</string>
     <string name="donwload_control_changelog_button">Lista de Cambios</string>
     <string name="download_control_view_folder_button">Ver Carpeta Entera</string>
@@ -256,10 +256,10 @@
 
     <!-- z control -->
     <string name="zcon_zram_disksize_label">Tamaño de Disco de ZRAM (Megabytes):</string>
-    <string name="zcon_zram_swap_on_radio">Intercambio de ZRAM Activado</string>
-    <string name="zcon_zram_swap_off_radio">Intercambio de ZRAM Desactivado</string>
-    <string name="zcon_zram_disksize_apply_button">Aplicar Tamaño de Disco</string>
-    <string name="zcon_vfs_drop_caches_switch">Limpiar Caché VFS despues de arrancar</string>
+    <string name="zcon_zram_swap_on_radio">Intercambio de ZRAM\nActivado</string>
+    <string name="zcon_zram_swap_off_radio">Intercambio de ZRAM\nDesactivado</string>
+    <string name="zcon_zram_disksize_apply_button">Aplicar Tamaño\nde Disco</string>
+    <string name="zcon_vfs_drop_caches_switch">Limpiar Caché VFS después de arrancar</string>
     <string name="zcon_vfs_drop_caches_description">Esta opción forzará que se reescriba la caché del sistema basado en la aplicación usandose para procesos de arranque e inicio. Activa para un mejor rendimiento de lectura/escritura del sistema!</string>
     <string name="zcon_laptop_mode_switch">Auto FS Writeback Delay Mode</string>
     <string name="zcon_laptop_mode_description">This option will delay the writeback of file system bits cached in RAM while Screen is ON (Enable for better performance @ slight risk of possible data loss if crashed or sudden loss of power)</string>
