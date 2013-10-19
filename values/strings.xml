@@ -12,12 +12,12 @@
     <string name="acquire_root_bosybox_check_passed">busybox check passed</string>
     <string name="acquire_root_setting_permissions">setting kernel permissions</string>
     <string name="acquire_root_no_shell_service">No shell service running, starting service</string>
-    
+
     <!-- lvl messages -->
     <string name="lvl_checking_license">Checking Google License</string>
     <string name="lvl_check_app_error">License Check Fatal Error :</string>
     <string name="lvl_check_invalid">License Not Received!\nPlease make sure you have\nWiFi and/or Data connection\nand try again!</string>
-    
+
     <!-- unsupported kernel -->
     <string name="unsupported_kernel_paragraph">This kernel is unsupported :(</string>
 
@@ -71,7 +71,7 @@
     <string name="fragment_appcontrol_name">Per App Control</string>
     <string name="fragment_appcontrol_detail">Per App Performance Control</string>
     <string name="fragment_appcontrol_hint">Per App Performance Controls</string>
-    
+
     <!-- UI drawer -->
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
@@ -285,6 +285,10 @@
     <string name="thermcon_offline_core_1_checkbox">Core 1</string>
     <string name="thermcon_offline_core_2_checkbox">Core 2</string>
     <string name="thermcon_offline_core_3_checkbox">Core 3</string>
+    <string name="thermcon_thermal_stats_label">Thermal Statistics (Past 3 minutes)</string>
+    <string name="thermcon_therml_stats_legend_normal">Normal </string>
+    <string name="thermcon_therml_stats_legend_throttled">Throttled </string>
+    <string name="thermcon_therml_stats_legend_overtemp">OverTemp </string>
 
     <!-- Settings control -->
     <string name="settings_control_theme_name_label">App Theme :</string>
@@ -293,7 +297,7 @@
     <string name="settings_control_copyright_label">Copyright Notice :</string>
     <string name="settings_control_open_source_label">Open Source Licenses :</string>
     <string name="settings_control_translation_label">Translations :</string>
-    
+
     <!-- Per App Controls -->
     <string name="per_app_dialog_save">Save</string>
     <string name="per_app_dialog_discard">Cancel</string>
@@ -306,5 +310,7 @@
     <string name="per_app_dialog_gpu_max_freq">GPU Max Freq (Hz) :</string>
     <string name="per_app_dialog_gpu_governor">GPU Governor :</string>
     <string name="per_app_dialog_eco_mode_enable">Enable Eco Mode</string>
-        
+    <string name="per_app_toast_activated">FauxClock: Activated Profile for :</string>
+    <string name="per_app_toast_restored_system">FauxClock: Restored System Settings!</string>
+
 </resources>
