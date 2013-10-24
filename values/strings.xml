@@ -310,7 +310,7 @@
     <string name="per_app_dialog_gpu_max_freq">GPU Max Freq (Hz) :</string>
     <string name="per_app_dialog_gpu_governor">GPU Governor :</string>
     <string name="per_app_dialog_eco_mode_enable">Enable Eco Mode</string>
-    <string name="per_app_toast_activated">FauxClock: Activated Profile for :</string>
+    <string name="per_app_toast_activated">FauxClock: Activated Profile for: </string>
     <string name="per_app_toast_restored_system">FauxClock: Restored System Settings!</string>
 
 </resources>
