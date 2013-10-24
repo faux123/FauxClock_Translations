@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
     <string name="app_name">Faux123 Kernel Enhancement Project</string>
     <string name="app_drawer_name">FauxClock</string>
+    
     <!-- acquire root -->
     <string name="acquire_root_loading">Kontrola stavu Superusera a Busyboxu</string>
     <string name="acquire_root_acquired">su oprávnění povoleno</string>
@@ -10,12 +12,15 @@
     <string name="acquire_root_bosybox_check_passed">busybox kontrola proběhla</string>
     <string name="acquire_root_setting_permissions">oprávnění k nastavení kernelu</string>
     <string name="acquire_root_no_shell_service">Služba neběží, startuji</string>
+    
     <!-- lvl messages -->
     <string name="lvl_checking_license">Kontrola Google licence</string>
     <string name="lvl_check_app_error">Při kontrole licence došlo k chybě :</string>
     <string name="lvl_check_invalid">Licence nemohla být zkontrolována!\nJe zapnutá WiFi nebo datové připojení?</string>
+    
     <!-- unsupported kernel -->
     <string name="unsupported_kernel_paragraph">Tento kernel není podporován :(</string>
+    
     <!-- Fragments -->
     <string name="fragment_not_supported">Není podporováno!</string>
     <string name="fragment_cpu_name">Frekvence CPU / Hotplug</string>
@@ -66,11 +71,13 @@
     <string name="fragment_appcontrol_name">Ovládání dle aplikace</string>
     <string name="fragment_appcontrol_detail">Ovládání výkonu dle aplikace</string>
     <string name="fragment_appcontrol_hint">Ovládání výkonu dle aplikace</string>
+    
     <!-- UI drawer -->
     <string name="drawer_open">Otevřít navigační menu</string>
     <string name="drawer_close">Zavřít navigační menu</string>
     <string name="action_websearch">Hledat na webu</string>
     <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    
     <!-- common -->
     <string name="common_set_on_boot">Nastavit po startu</string>
     <string name="common_apply">Použít</string>
@@ -78,6 +85,7 @@
     <string name="common_dialog_cancel">Zrušit</string>
     <string name="common_change_log">Seznam změn</string>
     <string name="common_disabled">Vypnuto</string>
+    
     <!-- cpu control -->
     <string name="cpu_control_max_clock">Nejvyšší frekvence</string>
     <string name="cpu_control_min_clock">Nejnižší frekvence</string>
@@ -93,6 +101,7 @@
     <string name="cpu_control_tegra3_user_cap_paragraph">Enable to CAP the maximum CPU frequencies on Tegra3 platforms</string>
     <string name="cpu_control_intelliplug_status">Intelliplug Hotplug Driver</string>
     <string name="cpu_control_intelliplug_text">Zapnuto pokud je výchozí hotplug driver vypnut.</string>
+    
     <!-- voltage control -->
     <string name="voltage_control_global_cpu_voltage_label">Globální voltáž CPU:</string>
     <string name="voltage_control_smart_reflex_label">Ovládání Smart Reflex:</string>
@@ -102,6 +111,7 @@
     <string name="voltage_control_global_apply_button">Použít globálně</string>
     <string name="voltage_control_refresh_table_button">Aktualizovat tabulku</string>
     <string name="voltage_control_clear_all_button">Vymazat nastavení při startu</string>
+    
     <!-- governor control -->
     <string name="governor_control_unsupported_paragraph">Tento governor není aktuálně podporován!</string>
     <string name="governor_control_intellidemand_eco_mode_switch">Intellidemand Eco režim</string>
@@ -109,6 +119,7 @@
     <string name="n_governor_control_show_button">Zobrazit/aktualizovat</string>
     <string name="n_governor_control_save_button">Uložit</string>
     <string name="n_governor_control_warning_text">POZOR: Ne všechny hodnoty je možné uživatelsky upravit (např. sampling_rate). Mnoho hodnot od Androidu 4.0.3+ je ovládáno ROM (PowerHAL) nebo kernelem samotným.</string>
+    
     <!-- gpu control -->
     <string name="gpu_control_governor_label">GPU Governor :</string>
     <string name="gpu_control_clock_control_label">Ovládání frekvencí GPU:</string>
@@ -117,6 +128,7 @@
     <string name="gpu_control_msm_simple_threshold_label">Simple Governor: [Ramp Threshold]</string>
     <string name="gpu_control_msm_simple_laziness_description">Přizpůsobuje kolikrát governor ignoruje požadavky na snížení frekvence. Vyšší hodnota = větší výkon (větší spotřeba)</string>
     <string name="gpu_control_msm_simple_threshold_description">Přizpůsobuje prahovou hodnotu snižování nebo zvyšování frekvence GPU. Nižší hodnota = větší výkon (větší spotřeba)</string>
+    
     <!-- io scheduler control -->
     <string name="io_sched_emmc_label">I/O Scheduler (eMMC) :</string>
     <string name="io_sched_emmc_readahead">Readahead Size (eMMC) :</string>
@@ -125,6 +137,7 @@
     <string name="io_sched_sdcard_label">I/O Scheduler (SDCard) :</string>
     <string name="io_sched_sdcard_readahead">Readahead Size (SDCard) :</string>
     <string name="io_sched_sdcard_entropy">SDCard Entropy contribution :</string>
+    
     <!-- misc control -->
     <string name="misc_control_temp_warning_text">Všechna nastavení jsou dočasná. Po restartu zařízení budou resetována!</string>
     <string name="misc_control_dynamic_fsync_label">Dynamic File Sync</string>
@@ -143,6 +156,7 @@
     <string name="misc_control_blink_led_text">Výchozí (vypnmuto). Tato možnost umožní notifikacím blikat LEDkou v tlačítkách.</string>
     <string name="misc_control_otg_hack_n4_label">OTG pro Nexus 4</string>
     <string name="misc_control_ogt_hack_n4_text">Výchozí (vypnuto). Tato volba zapne OTG funkcionalitu. Tato funkčnost vyžaduje speciální OTG-Y kabel a připojenou nabíječku!</string>
+    
     <!-- sweep2wake control -->
     <string name="misc_control_sweep2wake_label">Sweep2Wake funkce :</string>
     <string name="misc_control_sweep2wake_paragraph">Výchozí (vypnuto). Tato volba zapne sweep2wake (může způsobit větší spotřebu, když je zařízení v kapse)</string>
@@ -175,9 +189,11 @@
     <string name="s2w_thresholds_label">Prahová hodnota: </string>
     <string name="s2w_orientations_label">Orientace: </string>
     <string name="s2w_parameters_apply_button">Použít parametry</string>
+    
     <!-- vibration control -->
     <string name="vibration_control_label">Ovládání vibrací:</string>
     <string name="vibration_control_button">Testovat vibrace</string>
+    
     <!-- color control -->
     <string name="color_control_common_red_label">Červená:</string>
     <string name="color_control_common_green_label">Zelená:</string>
@@ -201,6 +217,7 @@
     <string name="color_control_sgs_normal">Normální</string>
     <string name="color_control_sgs_warm">Teplé</string>
     <string name="color_control_sgs_hot">Vařící</string>
+    
     <!-- download control -->
     <string name="download_control_stable_label">Stabilní vydání:</string>
     <string name="download_control_no_data_paragraph">Není k dispozici datové připojení nebo neexistuje oficiální kernel pro toto zařízení!</string>
@@ -211,6 +228,7 @@
     <string name="download_reboot_cmds_label">Restartovací příkazy:</string>
     <string name="download_reboot_to_recovery_button">Restartovat do recovery</string>
     <string name="download_quick_reboot">Rychlý restart</string>
+    
     <!-- info -->
     <string name="info_follow_me_on_twitter">Sledovat autora na Twitteru</string>
     <string name="info_like_this_app_on_facebook">Dát like na Facebooku</string>
@@ -224,6 +242,7 @@
     <string name="info_rootz_kernel_support">Sekundární fórum podpory</string>
     <string name="info_donation_link">Odkaz na přispění na vývoj kernelu</string>
     <string name="info_app_version">Verze aplikace:</string>
+    
     <!-- soc power control -->
     <string name="soc_usage_label">Použito:</string>
     <string name="soc_enable_switch_label">Zapnuto</string>
@@ -234,6 +253,7 @@
     <string name="soc_time_in_states_label">Čas ve stavu:</string>
     <string name="soc_total_time_value">Kliknutím na Aktulizovat stavy je možné stavy zobrazit!</string>
     <string name="soc_stats_refresh_button">Aktualizovat stavy</string>
+    
     <!-- z control -->
     <string name="zcon_zram_disksize_label">ZRAM velikost na disku (MB):</string>
     <string name="zcon_zram_swap_on_radio">ZRAM Swap Zap</string>
@@ -247,6 +267,7 @@
     <string name="zcon_vfs_cache_pressure_label">VFS Cache Pressure: (výchozí 100%)</string>
     <string name="zcon_dirty_ratio_label">Dirty Ratio: (výchozí 20%)</string>
     <string name="zcon_dirty_background_ratio_label">Dirty Background Ratio: (výchozí 5%)</string>
+    
     <!-- thermal control -->
     <string name="thermcon_thermal_daemon_label">Správa teplot:\n(Rdoporučen Intellithermal)</string>
     <string name="thermcon_intelli_thermal_radio">Intellithermal (lepší)</string>
@@ -268,6 +289,7 @@
     <string name="thermcon_therml_stats_legend_normal">Normální </string>
     <string name="thermcon_therml_stats_legend_throttled">Throttlované </string>
     <string name="thermcon_therml_stats_legend_overtemp">Přehřátí </string>
+    
     <!-- Settings control -->
     <string name="settings_control_theme_name_label">Téma aplikace :</string>
     <string name="settings_control_theme_description">Vybrat požadované téma a následně stiksnout tlačítko Použít téma</string>
@@ -275,6 +297,7 @@
     <string name="settings_control_copyright_label">Copyright upozornění :</string>
     <string name="settings_control_open_source_label">Open Source licence :</string>
     <string name="settings_control_translation_label">Překlady :</string>
+    
     <!-- Per App Controls -->
     <string name="per_app_dialog_save">Uložit</string>
     <string name="per_app_dialog_discard">Zrušit</string>
@@ -288,5 +311,6 @@
     <string name="per_app_dialog_gpu_governor">GPU Governor :</string>
     <string name="per_app_dialog_eco_mode_enable">Zapnout Eco režim</string>
     <string name="per_app_toast_activated">FauxClock: Aktivován profil pro :</string>
-    <string name="per_app_toast_restored_system">FauxClock: Systémové nastavení obnoveno!</string> 
+    <string name="per_app_toast_restored_system">FauxClock: Systémové nastavení obnoveno!</string>
+     
 </resources>
