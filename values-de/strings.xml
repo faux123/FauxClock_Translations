@@ -224,7 +224,7 @@
     <string name="download_control_franco_warning">ACHTUNG : Franco kernel identifiziert. Sie MÜSSEN den entsprechenden Kernel Reset flashen, welche in meinem Support Threads im &quot;INFO&quot; Tab zu finden ist oder STOCK Kernel flashen bevor mein Kernel geflasht wird. Tun Sie dies nicht, wird Ihr Gerät NICHT BOOTEN wegen Franco\'s NICHT-STANDARDEM Kernel Image !!!</string>
     <string name="download_control_beta_label">Beta Version :</string>
     <string name="donwload_control_changelog_button">Change Log</string>
-    <string name="download_control_view_folder_button">Gesammten Ordner sehen</string>
+    <string name="download_control_view_folder_button">Gesamten Ordner sehen</string>
     <string name="download_reboot_cmds_label">Neustart Befehle :</string>
     <string name="download_reboot_to_recovery_button">Ins Recovery booten</string>
     <string name="download_quick_reboot">Schnellstart</string>
@@ -285,10 +285,14 @@
     <string name="thermcon_offline_core_1_checkbox">Kern 1</string>
     <string name="thermcon_offline_core_2_checkbox">Kern 2</string>
     <string name="thermcon_offline_core_3_checkbox">Kern 3</string>
-
+    <string name="thermcon_thermal_stats_label">Thermal Statistics (Past 3 minutes)</string>
+    <string name="thermcon_therml_stats_legend_normal">Normal </string>
+    <string name="thermcon_therml_stats_legend_throttled">Throttled </string>
+    <string name="thermcon_therml_stats_legend_overtemp">OverTemp </string>
+    
     <!-- Settings control -->
     <string name="settings_control_theme_name_label">App Theme :</string>
-    <string name="settings_control_theme_description">Wählen Sie das gewünschte Theme aus, und drücken Sie anschliessend auf den Theme verwenden Knopf</string>
+    <string name="settings_control_theme_description">Wählen Sie das gewünschte Theme aus, und drücken Sie anschließend auf den Theme verwenden Knopf</string>
     <string name="settings_control_theme_apply_button">Theme verwenden</string>
     <string name="settings_control_copyright_label">Copyright Hinweis :</string>
     <string name="settings_control_open_source_label">Open Source Lizenzen :</string>
@@ -306,6 +310,7 @@
     <string name="per_app_dialog_gpu_max_freq">GPU Max Freq (Hz) :</string>
     <string name="per_app_dialog_gpu_governor">GPU Governor :</string>
     <string name="per_app_dialog_eco_mode_enable">Eco Modus aktivieren</string>
-    
+    <string name="per_app_toast_activated">FauxClock: Activated Profile for :</string>
+    <string name="per_app_toast_restored_system">FauxClock: Restored System Settings!</string>
     
 </resources>
