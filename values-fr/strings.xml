@@ -285,6 +285,10 @@
     <string name="thermcon_offline_core_1_checkbox">Core 1</string>
     <string name="thermcon_offline_core_2_checkbox">Core 2</string>
     <string name="thermcon_offline_core_3_checkbox">Core 3</string>
+    <string name="thermcon_thermal_stats_label">Thermal Statistics (Past 3 minutes)</string>
+    <string name="thermcon_therml_stats_legend_normal">Normal </string>
+    <string name="thermcon_therml_stats_legend_throttled">Throttled </string>
+    <string name="thermcon_therml_stats_legend_overtemp">OverTemp </string>
 
     <!-- Settings control -->
     <string name="settings_control_theme_name_label">Thème de l\'app :</string>
@@ -306,6 +310,7 @@
     <string name="per_app_dialog_gpu_max_freq">Fréq. GPU Max (Hz) :</string>
     <string name="per_app_dialog_gpu_governor">Gouverneur GPU :</string>
     <string name="per_app_dialog_eco_mode_enable">Activer mode Eco</string>
-    
+    <string name="per_app_toast_activated">FauxClock: Activated Profile for :</string>
+    <string name="per_app_toast_restored_system">FauxClock: Restored System Settings!</string>    
     
 </resources>
