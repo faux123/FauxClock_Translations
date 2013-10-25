@@ -258,7 +258,7 @@
     <string name="zcon_zram_disksize_label">ZRAM velikost na disku (MB):</string>
     <string name="zcon_zram_swap_on_radio">ZRAM Swap Zap</string>
     <string name="zcon_zram_swap_off_radio">ZRAM Swap Vyp</string>
-    <string name="zcon_zram_disksize_apply_button">Použív velikost na disku</string>
+    <string name="zcon_zram_disksize_apply_button">Použív velikost\nna disku</string>
     <string name="zcon_vfs_drop_caches_switch">Vymazat VFS Cache po startu</string>
     <string name="zcon_vfs_drop_caches_description">Tato možnost vynutí aktualizaci keše souborového systému na základě využití aplikacemi a ne startu procesů. Zapnout pro vyší výkon souborového systému!</string>
     <string name="zcon_laptop_mode_switch">Auto FS Writeback Delay režim</string>
