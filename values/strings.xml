@@ -101,7 +101,7 @@
     <string name="cpu_control_tegra3_user_cap_paragraph">Enable to CAP the maximum CPU frequencies on Tegra3 platforms</string>
     <string name="cpu_control_intelliplug_status">Intelliplug Hotplug Driver</string>
     <string name="cpu_control_intelliplug_text">Enabled when stock hotplug driver is Off.</string>
-
+    
     <!-- voltage control -->
     <string name="voltage_control_global_cpu_voltage_label">Global CPU Voltage:</string>
     <string name="voltage_control_smart_reflex_label">Smart Reflex Controls:</string>
@@ -217,7 +217,9 @@
     <string name="color_control_sgs_normal">Normal</string>
     <string name="color_control_sgs_warm">Warm</string>
     <string name="color_control_sgs_hot">Hot</string>
-
+	<string name="color_control_toast_msg">Turn screen on/off to refresh!</string>
+    <string name="color_control_toast_warning">NO PROFILES LOADED! Corrupted /sdcard/com.teamkang.fauxclcok/fauxdisplay.txt!</string>
+	
     <!-- download control -->
     <string name="download_control_stable_label">Stable Releases:</string>
     <string name="download_control_no_data_paragraph">There is no data connection or no official kernel support for this device!</string>
