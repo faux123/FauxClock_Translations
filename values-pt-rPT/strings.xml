@@ -226,7 +226,7 @@
     <string name="donwload_control_changelog_button">Log de alterações</string>
     <string name="download_control_view_folder_button">Ver pasta completa</string>
     <string name="download_reboot_cmds_label">Comandos de reinicialização:</string>
-    <string name="download_reboot_to_recovery_button">reinicializar em modo de recupuração</string>
+    <string name="download_reboot_to_recovery_button">reinicializar em\nmodo de recupuração</string>
     <string name="download_quick_reboot">reinicializar rápido</string>
 
     <!-- info -->
